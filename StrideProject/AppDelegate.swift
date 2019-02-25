@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import BaseBusiness
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+
+        let businessClass = (NSClassFromString("GYAPod.ABusiness") as! BaseBusiness.Type).init("ABusiness")
+        
+        Bus.register(business: businessClass)
+        
         return true
     }
 

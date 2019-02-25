@@ -1,0 +1,25 @@
+PODS:
+  - BaseBusiness (0.1.3)
+  - BPod (0.1.1):
+    - BaseBusiness
+  - GYAPod (0.2.4):
+    - BaseBusiness
+
+DEPENDENCIES:
+  - BPod
+  - GYAPod
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BaseBusiness
+    - BPod
+    - GYAPod
+
+SPEC CHECKSUMS:
+  BaseBusiness: 1c94b48bfa484a8f239ed507d95b28bf2d83dbf9
+  BPod: 10fad808695f25c379adeaa5d94ca81f8f2564fe
+  GYAPod: de7f6c76e18437524148fe0ee308fb613020948e
+
+PODFILE CHECKSUM: ed8a16cbe02dc019a4956b76660a7388441260c2
+
+COCOAPODS: 1.5.3

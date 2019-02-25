@@ -1,0 +1,6 @@
+framework module GYAPod {
+  umbrella header "GYAPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

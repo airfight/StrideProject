@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FAC66A7C918FABD1185BAD9 /* Pods_StrideProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E03A04C065102E8AE61E64 /* Pods_StrideProject.framework */; };
 		8635E0FF2222DBA400400D5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635E0FE2222DBA400400D5C /* AppDelegate.swift */; };
 		8635E1012222DBA400400D5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635E1002222DBA400400D5C /* ViewController.swift */; };
 		8635E1042222DBA400400D5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8635E1022222DBA400400D5C /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		8635E1092222DBA700400D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8635E1072222DBA700400D5C /* LaunchScreen.storyboard */; };
 		8635E1142222DBA700400D5C /* StrideProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635E1132222DBA700400D5C /* StrideProjectTests.swift */; };
 		8635E11F2222DBA700400D5C /* StrideProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635E11E2222DBA700400D5C /* StrideProjectUITests.swift */; };
+		A44492FAD358BA0804A27A02 /* Pods_StrideProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7FC692C65C384871285D7B /* Pods_StrideProjectTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C7FC692C65C384871285D7B /* Pods_StrideProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrideProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B77EC75262683BC3A6462AE /* Pods-StrideProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrideProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StrideProjectTests/Pods-StrideProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8635E0FB2222DBA400400D5C /* StrideProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrideProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8635E0FE2222DBA400400D5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8635E1002222DBA400400D5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		8635E11A2222DBA700400D5C /* StrideProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrideProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8635E11E2222DBA700400D5C /* StrideProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrideProjectUITests.swift; sourceTree = "<group>"; };
 		8635E1202222DBA700400D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB90E1E69B956CF47E9B93FD /* Pods-StrideProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrideProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StrideProject/Pods-StrideProject.debug.xcconfig"; sourceTree = "<group>"; };
+		BB65871CA4C9506A3540811C /* Pods-StrideProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrideProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-StrideProject/Pods-StrideProject.release.xcconfig"; sourceTree = "<group>"; };
+		C3C07A6DC7F9364D58FAD64D /* Pods-StrideProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrideProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StrideProjectTests/Pods-StrideProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		D0E03A04C065102E8AE61E64 /* Pods_StrideProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrideProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FAC66A7C918FABD1185BAD9 /* Pods_StrideProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A44492FAD358BA0804A27A02 /* Pods_StrideProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4B2AFC2EDB4959216019DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0E03A04C065102E8AE61E64 /* Pods_StrideProject.framework */,
+				1C7FC692C65C384871285D7B /* Pods_StrideProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8635E0F22222DBA400400D5C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +100,8 @@
 				8635E1122222DBA700400D5C /* StrideProjectTests */,
 				8635E11D2222DBA700400D5C /* StrideProjectUITests */,
 				8635E0FC2222DBA400400D5C /* Products */,
+				A362A5C6DC3C2C890FB9725C /* Pods */,
+				1C4B2AFC2EDB4959216019DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +146,17 @@
 			path = StrideProjectUITests;
 			sourceTree = "<group>";
 		};
+		A362A5C6DC3C2C890FB9725C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB90E1E69B956CF47E9B93FD /* Pods-StrideProject.debug.xcconfig */,
+				BB65871CA4C9506A3540811C /* Pods-StrideProject.release.xcconfig */,
+				4B77EC75262683BC3A6462AE /* Pods-StrideProjectTests.debug.xcconfig */,
+				C3C07A6DC7F9364D58FAD64D /* Pods-StrideProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8635E1232222DBA700400D5C /* Build configuration list for PBXNativeTarget "StrideProject" */;
 			buildPhases = (
+				60BA1CEAC0B89CCA3486B132 /* [CP] Check Pods Manifest.lock */,
 				8635E0F72222DBA400400D5C /* Sources */,
 				8635E0F82222DBA400400D5C /* Frameworks */,
 				8635E0F92222DBA400400D5C /* Resources */,
+				A56B0D45D643065FB6121902 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8635E1262222DBA700400D5C /* Build configuration list for PBXNativeTarget "StrideProjectTests" */;
 			buildPhases = (
+				2B48642DF92AF951283809C0 /* [CP] Check Pods Manifest.lock */,
 				8635E10B2222DBA700400D5C /* Sources */,
 				8635E10C2222DBA700400D5C /* Frameworks */,
 				8635E10D2222DBA700400D5C /* Resources */,
@@ -250,6 +285,79 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B48642DF92AF951283809C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrideProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60BA1CEAC0B89CCA3486B132 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrideProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A56B0D45D643065FB6121902 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StrideProject/Pods-StrideProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BPod/BPod.framework",
+				"${BUILT_PRODUCTS_DIR}/BaseBusiness/BaseBusiness.framework",
+				"${BUILT_PRODUCTS_DIR}/GYAPod/GYAPod.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BPod.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BaseBusiness.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GYAPod.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StrideProject/Pods-StrideProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8635E0F72222DBA400400D5C /* Sources */ = {
@@ -430,6 +538,7 @@
 		};
 		8635E1242222DBA700400D5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB90E1E69B956CF47E9B93FD /* Pods-StrideProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +557,7 @@
 		};
 		8635E1252222DBA700400D5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB65871CA4C9506A3540811C /* Pods-StrideProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +576,7 @@
 		};
 		8635E1272222DBA700400D5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B77EC75262683BC3A6462AE /* Pods-StrideProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +598,7 @@
 		};
 		8635E1282222DBA700400D5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C07A6DC7F9364D58FAD64D /* Pods-StrideProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

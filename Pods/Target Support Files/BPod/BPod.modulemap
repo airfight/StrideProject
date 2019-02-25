@@ -1,0 +1,6 @@
+framework module BPod {
+  umbrella header "BPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
